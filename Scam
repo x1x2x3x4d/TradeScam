@@ -1,0 +1,271 @@
+
+local SCRIPT = Instance.new("ScreenGui")
+local hack = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local lol = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local HohoTradeScamV1 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_7 = Instance.new("UICorner")
+local TextBox_2 = Instance.new("TextBox")
+local UICorner_8 = Instance.new("UICorner")
+local TextBox_3 = Instance.new("TextBox")
+local UICorner_9 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local loginframe = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local login = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local pass = Instance.new("TextBox")
+local UICorner_13 = Instance.new("UICorner")
+local user = Instance.new("TextBox")
+local UICorner_14 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+
+-- Properties
+
+SCRIPT.Name = "SCRIPT"
+SCRIPT.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SCRIPT.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+hack.Name = "hack"
+hack.Parent = SCRIPT
+hack.BackgroundColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+hack.Position = UDim2.new(0.199490666, 0, 0.184375003, 0)
+hack.Size = UDim2.new(0, 708, 0, 403)
+hack.Visible = false
+hack.Draggable = true
+hack.Active = true
+
+UICorner.Parent = hack
+
+lol.Name = "lol"
+lol.Parent = hack
+lol.BackgroundColor3 = Color3.new(1, 1, 1)
+lol.Size = UDim2.new(0, 708, 0, 72)
+
+UICorner_2.Parent = lol
+
+HohoTradeScamV1.Name = "Hoho Trade Scam V1"
+HohoTradeScamV1.Parent = lol
+HohoTradeScamV1.BackgroundColor3 = Color3.new(1, 1, 1)
+HohoTradeScamV1.BackgroundTransparency = 1
+HohoTradeScamV1.Size = UDim2.new(0, 708, 0, 72)
+HohoTradeScamV1.Font = Enum.Font.SourceSans
+HohoTradeScamV1.Text = "Hoho Trade Scam V1"
+HohoTradeScamV1.TextColor3 = Color3.new(0, 0, 0)
+HohoTradeScamV1.TextSize = 32
+
+TextButton.Parent = hack
+TextButton.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+TextButton.Position = UDim2.new(-5.58793545e-09, 0, 0.846153855, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Confirm"
+TextButton.TextColor3 = Color3.new(1, 1, 1)
+TextButton.TextSize = 34
+
+UICorner_3.Parent = TextButton
+
+TextButton_2.Parent = hack
+TextButton_2.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+TextButton_2.Position = UDim2.new(0.302259892, 0, 0.846153855, 0)
+TextButton_2.Size = UDim2.new(0, 200, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "On"
+TextButton_2.TextColor3 = Color3.new(1, 1, 1)
+TextButton_2.TextSize = 34
+
+UICorner_4.Parent = TextButton_2
+
+TextButton_3.Parent = hack
+TextButton_3.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+TextButton_3.Position = UDim2.new(0.60028249, 0, 0.846153855, 0)
+TextButton_3.Size = UDim2.new(0, 200, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Off"
+TextButton_3.TextColor3 = Color3.new(1, 1, 1)
+TextButton_3.TextSize = 34
+
+UICorner_5.Parent = TextButton_3
+
+TextButton_4.Parent = hack
+TextButton_4.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+TextButton_4.Position = UDim2.new(0.908192098, 0, 0.846153855, 0)
+TextButton_4.Size = UDim2.new(0, 65, 0, 50)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "SS"
+TextButton_4.TextColor3 = Color3.new(1, 1, 1)
+TextButton_4.TextSize = 34
+
+UICorner_6.Parent = TextButton_4
+
+TextBox.Parent = hack
+TextBox.BackgroundColor3 = Color3.new(1, 1, 1)
+TextBox.Position = UDim2.new(0.358757049, 0, 0.240694791, 0)
+TextBox.Size = UDim2.new(0, 441, 0, 50)
+TextBox.Font = Enum.Font.SourceSansSemibold
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.new(0, 0, 0)
+TextBox.TextSize = 27
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_7.Parent = TextBox
+
+TextBox_2.Parent = hack
+TextBox_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextBox_2.Position = UDim2.new(0.358757049, 0, 0.40446651, 0)
+TextBox_2.Size = UDim2.new(0, 441, 0, 50)
+TextBox_2.Font = Enum.Font.SourceSansSemibold
+TextBox_2.Text = ""
+TextBox_2.TextColor3 = Color3.new(0, 0, 0)
+TextBox_2.TextSize = 27
+TextBox_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_8.Parent = TextBox_2
+
+TextBox_3.Parent = hack
+TextBox_3.BackgroundColor3 = Color3.new(1, 1, 1)
+TextBox_3.Position = UDim2.new(0.358757049, 0, 0.590570748, 0)
+TextBox_3.Size = UDim2.new(0, 441, 0, 50)
+TextBox_3.Font = Enum.Font.SourceSans
+TextBox_3.Text = ""
+TextBox_3.TextColor3 = Color3.new(0, 0, 0)
+TextBox_3.TextSize = 27
+TextBox_3.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_9.Parent = TextBox_3
+
+TextLabel.Parent = hack
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Position = UDim2.new(-0.0141242938, 0, 0.240694791, 0)
+TextLabel.Size = UDim2.new(0, 349, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Usrename : "
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextSize = 41
+
+TextLabel_2.Parent = hack
+TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.Position = UDim2.new(0, 0, 0.590570748, 0)
+TextLabel_2.Size = UDim2.new(0, 349, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Money :"
+TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextSize = 41
+
+TextLabel_3.Parent = hack
+TextLabel_3.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_3.BackgroundTransparency = 1
+TextLabel_3.Position = UDim2.new(-0.0466101691, 0, 0.40446651, 0)
+TextLabel_3.Size = UDim2.new(0, 349, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Other Plr User :"
+TextLabel_3.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_3.TextSize = 41
+
+loginframe.Name = "loginframe"
+loginframe.Parent = SCRIPT
+loginframe.BackgroundColor3 = Color3.new(0.247059, 0.247059, 0.247059)
+loginframe.Position = UDim2.new(0.233446538, 0, 0.184375003, 0)
+loginframe.Size = UDim2.new(0, 708, 0, 403)
+loginframe.Draggable = true
+loginframe.Active = true
+
+UICorner_10.Parent = loginframe
+
+Frame.Parent = loginframe
+Frame.BackgroundColor3 = Color3.new(0, 0, 0)
+Frame.Size = UDim2.new(0, 708, 0, 44)
+
+UICorner_11.Parent = Frame
+
+login.Name = "login "
+login.Parent = Frame
+login.BackgroundColor3 = Color3.new(1, 1, 1)
+login.Position = UDim2.new(0.24011299, 0, 6.77272749, 0)
+login.Size = UDim2.new(0, 368, 0, 50)
+login.Font = Enum.Font.SourceSans
+login.Text = "Check"
+login.TextColor3 = Color3.new(0, 0, 0)
+login.TextSize = 32
+login.MouseButton1Down:Connect(function()
+	if user.Text == "dark" and pass.Text == "man" then
+		wait(3)
+		loginframe.Visible = false
+		hack.Visible = true
+
+	end
+end)
+
+UICorner_12.Parent = login
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_4.BackgroundTransparency = 1
+TextLabel_4.Position = UDim2.new(0.0437853113, 0, 4.45454502, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Pssword  :"
+TextLabel_4.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_4.TextSize = 38
+
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_5.BackgroundTransparency = 1
+TextLabel_5.Position = UDim2.new(0.0437853113, 0, 2.36363626, 0)
+TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Username : "
+TextLabel_5.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_5.TextSize = 38
+
+pass.Name = "pass"
+pass.Parent = Frame
+pass.BackgroundColor3 = Color3.new(1, 1, 1)
+pass.Position = UDim2.new(0.299435019, 0, 4.4545455, 0)
+pass.Size = UDim2.new(0, 283, 0, 50)
+pass.Font = Enum.Font.SourceSans
+pass.Text = ""
+pass.TextColor3 = Color3.new(0, 0, 0)
+pass.TextSize = 36
+
+UICorner_13.Parent = pass
+
+user.Name = "user"
+user.Parent = Frame
+user.BackgroundColor3 = Color3.new(1, 1, 1)
+user.Position = UDim2.new(0.299435019, 0, 2.36363649, 0)
+user.Size = UDim2.new(0, 283, 0, 50)
+user.Font = Enum.Font.SourceSans
+user.Text = ""
+user.TextColor3 = Color3.new(0, 0, 0)
+user.TextSize = 36
+
+UICorner_14.Parent = user
+
+TextLabel_6.Parent = Frame
+TextLabel_6.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_6.BackgroundTransparency = 1
+TextLabel_6.Position = UDim2.new(0, 0, -0.13636364, 0)
+TextLabel_6.Size = UDim2.new(0, 708, 0, 50)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Login"
+TextLabel_6.TextColor3 = Color3.new(0.776471, 0.776471, 0.776471)
+TextLabel_6.TextSize = 38
